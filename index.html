@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon-32x32.png">
+
+  <link rel="stylesheet" href="./css/normalize.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@500;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="./css/styles.css">
+
+  <!-- Required Core Stylesheet -->
+  <link rel="stylesheet" href="node_modules/@glidejs/glide/dist/css/glide.core.min.css">
+  <!-- Optional Theme Stylesheet -->
+  <link rel="stylesheet" href="node_modules/@glidejs/glide/dist/css/glide.theme.min.css">
+
+  
+  <title>Frontend Mentor | Single-page design portfolio</title>
+</head>
+<body>
+
+  <main>
+    <header class="header">
+      <div class="header-wrapper container">
+
+        <a href="/" class="logo" title="homepage">
+          <img src="./assets/logo.svg" alt="Logo">
+        </a>
+
+        <a href="/#free-consultation" class="button button--style1">
+          Free Consultation
+        </a>
+      </div>
+    </header>
+
+    <section class="hero">
+      <div class="hero-wrapper container">
+        <h1 class="hero-title">
+          Design solutions made easy
+        </h1>
+        <p class="hero-description">
+          With over ten years of experience in various design disciplines, I’m your one-stop<br> shop for your design needs.
+        </p>
+      </div>  
+    </section>
+
+    <section class="grid">
+      <div class="grid-wrapper container">
+        <div class="card card--graphic-design card--galactic-blue">
+          <img src="./assets/pattern-graphic-design.svg" alt="Graphic Design Pattern">
+          <h4 class="card-title">Graphic Design</h4>
+        </div>
+        <div class="card card--ui-ux card--summer-yellow">
+          <img src="./assets/pattern-ui-ux.svg" alt="pattern-ui-ux">
+          <h4 class="card-title">UI/UX</h4>
+        </div>
+        <div class="card card--apps card--pink">
+          <img src="./assets/pattern-apps.svg" alt="App Pattern">
+          <h4 class="card-title">Apps</h4>
+        </div>
+        <div class="card card--photography card--cyan">
+          <img src="./assets/pattern-photography.svg" alt="pattern-photography">
+          <h4 class="card-title">Photography</h4>
+        </div>
+        <div class="card card--illustrations card--light-red">
+          <img src="./assets/pattern-illustrations.svg" alt="pattern-illustrations">
+          <h4 class="card-title">Illustrations</h4>
+        </div>
+        <div class="card card--motion-graphic card--dark-purple">
+          <img src="./assets/pattern-motion-graphics.svg" alt="pattern-motion-graphics">
+          <h4 class="card-title">Motion Graphic</h4>
+        </div>
+      </div>
+    </section>
+  
+    <section class="author-block">
+      <div class="author-block-wrapper container">
+
+          <div class="author-block__image">
+            <img src="./assets/image-amy.webp" alt="Author Amy">
+          </div>
+
+          <div class="author-block__content">
+            <h2 class="author-block__title">
+              I’m Amy, and I’d love to work on your next project
+            </h2>
+            <p class="author-block__description">
+              I love working with others to create beautiful design solutions. I’ve designed everything from brand illustrations 
+              to complete mobile apps. I’m also handy with a camera!
+            </p>
+
+            <a href="/#free-consultation" class="button button--style2">
+              Free Consultation
+            </a>
+          </div>
+      </div>
+    </section>
+  
+    <section class="slider">
+      <h3 class="slider-title">My Work</h3>
+
+      <div class="slider-wrapper">
+        <div class="glide">
+          <div class="glide__track" data-glide-el="track">
+            <ul class="glide__slides">
+              <li class="glide__slide">
+                <img src="./assets/image-slide-1.jpg" alt="">
+              </li>
+              <li class="glide__slide">
+                <img src="./assets/image-slide-2.jpg" alt="">
+              </li>
+              <li class="glide__slide">
+                <img src="./assets/image-slide-3.jpg" alt="">
+              </li>
+              <li class="glide__slide">
+                <img src="./assets/image-slide-4.jpg" alt="">
+              </li>
+              <li class="glide__slide">
+                <img src="./assets/image-slide-5.jpg" alt="">
+              </li>
+            </ul>
+          </div>
+  
+          <div class="glide__arrows" data-glide-el="controls">
+            <button class="glide__arrow glide__arrow--left" data-glide-dir="<">
+              <svg width="15" height="16" viewBox="0 0 15 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M7.99992 0L0 7.99998L7.99992 16L9.68661 14.3133L4.56596 9.19271H14.8072V6.8072H4.56596L9.68661 1.6866L7.99992 0Z" fill="white"/>
+              </svg>                
+            </button>
+            <button class="glide__arrow glide__arrow--right" data-glide-dir=">">
+              <svg width="15" height="16" viewBox="0 0 15 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M6.80729 16L14.8072 8.00002L6.80729 0L5.1206 1.68669L10.2412 6.80729L-1.90735e-06 6.80729L-1.90735e-06 9.1928L10.2412 9.1928L5.1206 14.3134L6.80729 16Z" fill="white"/>
+              </svg>                
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+  
+    <section class="cta">
+      <div class="cta-wrapper container">
+        <div class="cta-left">
+          <h2 class="cta-title">
+            Book a call with me
+          </h2>
+          <p class="cta-text">
+            I’d love to have a chat to see how I can help you. The best first step is for us to discuss your project during a 
+            free consultation. Then we can move forward from there.
+          </p>
+        </div>
+        <div class="cta-right">
+          <a href="/#free-consultation" class="button button--style2">
+            Free Consultation
+          </a>
+        </div>
+      </div>
+    </section>
+  
+  
+    <footer class="footer">
+      <div class="footer-wrapper container">
+
+        <a href="/" class="logo" title="homepage">
+          <img src="./assets/logo.svg" alt="Logo">
+        </a>
+
+        <a href="/#free-consultation" class="button button--style1">
+          Free Consultation
+        </a>
+      </div>
+    </footer>
+  </main>
+
+  <script src="node_modules/@glidejs/glide/dist/glide.min.js"></script>
+  <script src="./js/glider.js"></script>
+</body>
+</html>
